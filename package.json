@@ -1,0 +1,22 @@
+{
+  "name": "blog-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonish777/sonish777.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonish777/sonish777.github.io/issues"
+  },
+  "homepage": "https://sonish777.github.io/blog-design",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
