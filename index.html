@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <script src="js/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <button class="cta-button">&#9993; Message us</button>
+    <div class="cta-container">
+      <div class="cta-image">
+        <img class="cta__phone" src="img/cta-phone.png" />
+        <form class="cta__form">
+          <input class="cta__form-input" type="text" placeholder="Your email" />
+          <textarea
+            class="cta__form-textarea"
+            rows="8"
+            cols="30"
+            placeholder="Your message"
+          ></textarea>
+          <button class="cta__form-submit" type="submit">Send</button>
+        </form>
+        <div class="cta__close">&#10006;</div>
+      </div>
+    </div>
+
+    <header class="main-header">
+      <nav class="main-nav">
+        <div class="hamburger-icon">
+          <div class="dash"></div>
+          <div class="dash"></div>
+          <div class="dash"></div>
+        </div>
+        <ul class="main-nav__links">
+          <li class="main-nav__link"><a href="#">Nav Item 1</a></li>
+          <li class="main-nav__link"><a href="#">Nav Item 2</a></li>
+          <li class="main-nav__link"><a href="#">Nav Item 3</a></li>
+          <li class="main-nav__link dropdown">
+            <a href="#" class="dropdown__toggle">Dropdown Links</a>
+            <ul class="dropdown__links">
+              <li class="dropdown__link"><a href="#">Link 1</a></li>
+              <li class="dropdown__link"><a href="#">Link 2</a></li>
+              <li class="dropdown__link"><a href="#">Link 3</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <nav class="side-nav">
+        <i class="fas fa-angle-right arrow"></i>
+        <ul class="side-nav__links">
+          <li class="side-nav__link"><a href="#">Nav Item 1</a></li>
+          <li class="side-nav__link"><a href="#">Nav Item 2</a></li>
+          <li class="side-nav__link"><a href="#">Nav Item 3</a></li>
+          <li class="side-nav__link"><a href="#">Nav Item 4</a></li>
+          <li class="side-nav__link"><a href="#">Nav Item 5</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="backdrop"></div>
+      <div class="modal"></div>
+      <section class="card-view__grid">
+        <div class="card card-1">
+          <div class="background-wrapper">
+            <div
+              class="card-background"
+              style="background-image: url('img/img-1.jpeg');"
+            ></div>
+          </div>
+
+          <h2>Card Title</h2>
+          <p>Card Detail</p>
+        </div>
+        <div class="card card-2">
+          <div class="background-wrapper">
+            <div
+              class="card-background"
+              style="background-image: url('img/img-2.jpeg');"
+            ></div>
+          </div>
+
+          <h2>Card Title</h2>
+          <p>Card Detail</p>
+        </div>
+        <div class="card card-3">
+          <div class="background-wrapper">
+            <div
+              class="card-background"
+              style="background-image: url('img/img-3.jpeg');"
+            ></div>
+          </div>
+
+          <h2>Card Title</h2>
+          <p>Card Detail</p>
+        </div>
+        <div class="card card-4">
+          <div class="background-wrapper">
+            <div
+              class="card-background"
+              style="background-image: url('img/img-4.jpeg');"
+            ></div>
+          </div>
+
+          <h2>Card Title</h2>
+          <p>Card Detail</p>
+        </div>
+        <div class="card card-5">
+          <div class="background-wrapper">
+            <div
+              class="card-background"
+              style="background-image: url('img/img-5.jpeg');"
+            ></div>
+          </div>
+
+          <h2>Card Title</h2>
+          <p>Card Detail</p>
+        </div>
+      </section>
+
+      <div class="section-title">
+        <h2>Image Gallery</h2>
+      </div>
+
+      <section class="gallery-view__flex">
+        <div class="gallery-card">
+          <div
+            class="gallery-background__img"
+            style="background-image: url('img/gallery/img-1.jpeg');"
+          ></div>
+          <i class="fas fa-search-plus"></i>
+        </div>
+        <div class="gallery-card vertical">
+          <div
+            class="gallery-background__img"
+            style="background-image: url('img/gallery/img-7.jpeg');"
+          ></div>
+          <i class="fas fa-search-plus"></i>
+        </div>
+        <div class="gallery-card">
+          <div
+            class="gallery-background__img"
+            style="background-image: url('img/gallery/img-2.jpeg');"
+          ></div>
+          <i class="fas fa-search-plus"></i>
+        </div>
+        <div class="gallery-card">
+          <div
+            class="gallery-background__img"
+            style="background-image: url('img/gallery/img-3.jpg');"
+          ></div>
+          <i class="fas fa-search-plus"></i>
+        </div>
+        <div class="gallery-card vertical">
+          <div
+            class="gallery-background__img"
+            style="background-image: url('img/gallery/img-5.jpeg');"
+          ></div>
+          <i class="fas fa-search-plus"></i>
+        </div>
+        <div class="gallery-card">
+          <div
+            class="gallery-background__img"
+            style="background-image: url('img/gallery/img-4.jpeg');"
+          ></div>
+          <i class="fas fa-search-plus"></i>
+        </div>
+        <div class="gallery-card">
+          <div
+            class="gallery-background__img"
+            style="background-image: url('img/gallery/img-6.jpeg');"
+          ></div>
+          <i class="fas fa-search-plus"></i>
+        </div>
+        <div class="gallery-card">
+          <div
+            class="gallery-background__img"
+            style="background-image: url('img/gallery/img-8.jpeg');"
+          ></div>
+          <i class="fas fa-search-plus"></i>
+        </div>
+        <div class="gallery-card vertical">
+          <div
+            class="gallery-background__img"
+            style="background-image: url('img/gallery/img-9.jpeg');"
+          ></div>
+          <i class="fas fa-search-plus"></i>
+        </div>
+        <div class="gallery-card vertical">
+          <div
+            class="gallery-background__img"
+            style="background-image: url('img/gallery/img-10.jpeg');"
+          ></div>
+          <i class="fas fa-search-plus"></i>
+        </div>
+        <div class="gallery-card">
+          <div
+            class="gallery-background__img"
+            style="background-image: url('img/gallery/img-11.jpeg');"
+          ></div>
+          <i class="fas fa-search-plus"></i>
+        </div>
+      </section>
+
+      <section class="blog-post__reviews">
+        <div class="post-review">
+          <h2 class="post-review__section-title">FEATURED POSTS</h2>
+          <div class="post-review__featured">
+            <div
+              class="post-review__featured-image"
+              style="background-image: url('img/posts/img-featured.jpeg');"
+            ></div>
+            <span class="post-review__featured-title"
+              >New York diaries. 17th July</span
+            >
+            <p class="post-review__featured-summary">
+              Lorem ipsum dolor sit amet, qui augue mediocrem ei, mel te
+              oportere percipitur. Usu viris ludus ea, an duo sumo summo.
+              Dissentias constituam appellantur in qui. Simul fabulas offendit
+              et his, mei atstituam appellantur in qui. Simul fabulas offendit
+              et his, mei at
+            </p>
+            <ul class="post-review__featured-tags">
+              <li>new york</li>
+              <li>blog featured</li>
+              <li>tag3</li>
+            </ul>
+          </div>
+
+          <div class="post-review__link">
+            <div
+              class="post-review__link-image"
+              style="background-image: url('img/posts/img-1.jpeg');"
+            ></div>
+            <div class="post-review__link-details">
+              <span class="post-review__title"
+                >New York diaries. 17th July</span
+              >
+              <p class="post-review__summary">
+                Lorem ipsum dolor sit amet, qui augue mediocrem ei, mel te et
+                his, mei at
+              </p>
+            </div>
+          </div>
+          <div class="post-review__link">
+            <div
+              class="post-review__link-image"
+              style="background-image: url('img/posts/img-2.jpeg');"
+            ></div>
+            <div class="post-review__link-details">
+              <span class="post-review__title"
+                >New York diaries. 17th July</span
+              >
+              <p class="post-review__summary">
+                Dissentias constituam appellantur in qui. Simul fabulas offendit
+                et his, mei at
+              </p>
+            </div>
+          </div>
+          <div class="post-review__link">
+            <div
+              class="post-review__link-image"
+              style="background-image: url('img/posts/img-3.jpeg');"
+            ></div>
+            <div class="post-review__link-details">
+              <span class="post-review__title"
+                >New York diaries. 17th July</span
+              >
+              <p class="post-review__summary">
+                oportere percipitur. Usu viris ludus ea, an duo sumo summo. et
+                his, mei at
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3 class="recent-post__section-title-outside">LATEST POSTS</h3>
+        <div class="recent-posts">
+          <h3 class="recent-post__section-title">LATEST POSTS</h3>
+          <div class="recent-post">
+            <div
+              class="recent-post__image"
+              style="background-image: url('img/posts/img-4.jpeg');"
+            ></div>
+            <p>The changes in Tech</p>
+          </div>
+          <div class="recent-post">
+            <div
+              class="recent-post__image"
+              style="background-image: url('img/posts/img-5.jpeg');"
+            ></div>
+            <p>Top Grossing App</p>
+          </div>
+          <div class="recent-post">
+            <div
+              class="recent-post__image"
+              style="background-image: url('img/posts/img-6.jpeg');"
+            ></div>
+            <p>Latest COVID news</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
